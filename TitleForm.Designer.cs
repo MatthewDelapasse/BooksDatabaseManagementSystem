@@ -495,6 +495,7 @@ namespace BooksDatabaseManagementSystem
             this.btnXAuthor1.TabStop = false;
             this.btnXAuthor1.Text = "X";
             this.btnXAuthor1.UseVisualStyleBackColor = true;
+            this.btnXAuthor1.Click += new System.EventHandler(this.btnXAuthor_Click);
             // 
             // btnXAuthor2
             // 
@@ -506,6 +507,7 @@ namespace BooksDatabaseManagementSystem
             this.btnXAuthor2.TabStop = false;
             this.btnXAuthor2.Text = "X";
             this.btnXAuthor2.UseVisualStyleBackColor = true;
+            this.btnXAuthor2.Click += new System.EventHandler(this.btnXAuthor_Click);
             // 
             // btnXAuthor3
             // 
@@ -517,6 +519,7 @@ namespace BooksDatabaseManagementSystem
             this.btnXAuthor3.TabStop = false;
             this.btnXAuthor3.Text = "X";
             this.btnXAuthor3.UseVisualStyleBackColor = true;
+            this.btnXAuthor3.Click += new System.EventHandler(this.btnXAuthor_Click);
             // 
             // btnXAuthor4
             // 
@@ -528,6 +531,7 @@ namespace BooksDatabaseManagementSystem
             this.btnXAuthor4.TabStop = false;
             this.btnXAuthor4.Text = "X";
             this.btnXAuthor4.UseVisualStyleBackColor = true;
+            this.btnXAuthor4.Click += new System.EventHandler(this.btnXAuthor_Click);
             // 
             // btnAuthors
             // 

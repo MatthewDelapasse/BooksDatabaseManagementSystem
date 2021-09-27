@@ -55,7 +55,7 @@ namespace BooksDatabaseManagementSystem
             try
             {
                 //point to help file
-                hlpPublishers.HelpNamespace = Application.StartupPath + "\\titles.chm";
+                hlpPublishers.HelpNamespace = Application.StartupPath + "\\publishers.chm";
 
                 //connect to the books database (this will lead to successful connection)
                 string fullfile = Path.GetFullPath("SQLBooksDB.mdf");
@@ -414,6 +414,26 @@ namespace BooksDatabaseManagementSystem
                 {
                     authorsCombo[i].SelectedIndex = -1;
                 }
+            }
+        }
+
+        private void btnXAuthor_Click(object sender, EventArgs e)
+        {
+            Button whichButton = (Button)sender;
+            switch (whichButton.Name)
+            {
+                case "btnXAuthor1":
+                    cboAuthor1.SelectedIndex = -1;
+                    break;
+                case "btnXAuthor2":
+                    cboAuthor2.SelectedIndex = -1;
+                    break;
+                case "btnXAuthor3":
+                    cboAuthor3.SelectedIndex = -1;
+                    break;
+                case "btnXAuthor4":
+                    cboAuthor4.SelectedIndex = -1;
+                    break;
             }
         }
 
